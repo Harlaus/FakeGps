@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FakeGps</string>
+    <string name="about">about</string>
+    <string name="donate">donate</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+    <string name="withdraw">withdraw</string>
+    <string name="add">add</string>
+    <string name="clear">clear</string>
+    <string name="clearall">clearall</string>
+    <string name="search">search</string>
+    <string name="Defaulted">Defaulted</string>
+    <string name="detection">detection</string>
+    <string name="help">help</string>
+    <string name="version">version: 1.24</string>
+    <string name="Collection">Collection</string>
+    <string name="setting">setting</string>
+
+</resources>

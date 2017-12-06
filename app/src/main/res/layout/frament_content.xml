@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CollectionFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/bMain_Float"-->
+    <!--app:fabSize="normal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:src="@android:drawable/ic_dialog_email"-->
+    <!--app:backgroundTint="#FFC125"-->
+    <!--app:rippleColor="#FFD700"-->
+    <!--app:elevation="6dp"-->
+    <!--app:pressedTranslationZ="12dp"/>-->
+
+    <!--  layout_weight 越大优先级越低-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textSize="30px"
+            />
+
+        <Button
+            android:id="@+id/clearall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/clearall"
+            android:textSize="30px"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+
+
+</LinearLayout>

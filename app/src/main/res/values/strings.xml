@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">千网游</string>
+    <string name="start">模拟位置开始</string>
+    <string name="withdraw">撤回</string>
+    <string name="add">添加</string>
+    <string name="clear">清空</string>
+    <string name="clearall">清空所有位置</string>
+    <string name="search">搜索</string>
+    <string name="Defaulted">添加为系统位置</string>
+    <string name="about">关于</string>
+    <string name="detection">地图主页</string>
+    <string name="Collection">收藏位置</string>
+    <string name="donate">donate</string>
+    <string name="stop">stop</string>
+    <string name="setting">设置</string>
+    <string name="help">使用帮助</string>
+    <string name="version">版本: 1.24</string>
+    <string name="navigation_drawer_open" translatable="false">close drawer</string>
+    <string name="navigation_drawer_close" translatable="false">open drawer</string>
+
+
+</resources>

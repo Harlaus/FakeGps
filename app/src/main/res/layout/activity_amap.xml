@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="name.caiyao.fakegps.ui.activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.amap.api.maps2d.MapView
+        android:id="@+id/mv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.amap.api.maps2d.MapView>
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已添加地点个数："
+                android:textSize="28px"/>
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff4444"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@android:drawable/ic_menu_add"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/fab1"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
